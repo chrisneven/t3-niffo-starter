@@ -1,6 +1,11 @@
 {
   "name": "t3-niffo-starter",
   "version": "0.1.0",
+  "author": {
+    "name": "Chris Neven",
+    "email": "c.k.neven@live.nl",
+    "url": "https://github.com/chrisneven"
+  },
   "private": true,
   "scripts": {
     "build": "next build",

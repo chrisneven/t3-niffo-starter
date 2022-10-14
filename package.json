@@ -7,6 +7,8 @@
     "dev": "next dev",
     "postinstall": "prisma generate",
     "lint": "next lint",
+    "lint:fix": "yarn lint --fix",
+    "check-updates": "npm-check-updates -i",
     "start": "next start"
   },
   "dependencies": {
@@ -31,6 +33,7 @@
     "autoprefixer": "^10.4.7",
     "eslint": "8.22.0",
     "eslint-config-next": "12.3.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "postcss": "^8.4.14",
